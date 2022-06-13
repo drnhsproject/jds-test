@@ -47,8 +47,8 @@ function initial() {
 app.get("/", (req, res, next) => {
     res.json({
         status: 200,
-        message: "Success Get Data",
-        Data: "Testing get"
+        message: "WELCOME GUYS",
+        Data: "JDS TEST"
     })
 });
 

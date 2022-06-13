@@ -24,40 +24,36 @@ Pada git bash kita ketikan :
 code .
 ```
 makan akan terbuka visual studio code dengan struktur project kita di dalamnya, selanjutnya kita open terminal di visual studio code atau bisa juga menggunakan git bash yang tadi di open akan tetapi agar kita tidak bolak-balik aplikasi maka kita gunakan saja aplikasi terminal bawaan vscode lalu pilih terminal seperti dibawah ini:
-![](assets/choose-terminal.png)
-```sh
-code .
-```
-## Release History
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+![](assets/choose-terminal.png)
+
+setelah itu ketikan pada terminal kita di vscode
+```sh
+nodemon main
+```
+
+maka akan tampil seperti dibawah ini, dan secara otomatis akan mirgartion tabel yang sudah kita buat sebelumnya :
+
+![](assets/run-project.png)
+
+setelah running kita bisa melakukan api testing disini saya menggunakan postman, jadi yang belum install boleh install dulu atau bisa juga menggunakan api testing yang lain, yang pertama kita setting postmannya seperti dibawah ini, mulai dari method nya post, url, body dll, untuk password biarkan kosong karena itu akan tergeneratr otomatis setelah semua sesuai klik send dan akan mendapatkan response seperti pada kolom sebelah kanan:
+
+![](assets/api-signup.png)
+
+setelah username berhasil melaukan resistrasi maka kita ketahap selanjutnya yaitu melakukan sigin, yang pertama kita setting postmannya seperti dibawah ini, mulai dari method nya post, url, body dll, untuk username dan password bisa di copy saja dari api signup setelah semua sesuai klik send dan akan mendapatkan response seperti pada kolom sebelah kanan:
+
+![](assets/api-signup.png)
+
+dan jika kita lihat di databasenya maka data user sudah terinput :
+
+![](assets/database-user.png)
+
+sekian penjelasan singkat untuk penggunakan web register dan login menggunakan node js.
 
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+Dian Rahmat – [@hadireborn99](https://www.instagram.com/hadireborn99) – dian.rahmat74@gmail.com
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+[https://github.com/drnhsproject/jds-test](https://github.com/drnhsproject/jds-test)
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
-
-## Contributing
-
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
 
