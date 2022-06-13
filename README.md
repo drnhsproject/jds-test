@@ -3,7 +3,7 @@
 
 ![](header.png)
 
-## Installation
+## How to use
 
 Windows:
 
@@ -11,20 +11,19 @@ Windows:
 git clone https://github.com/drnhsproject/jds-test.git
 ```
 
-## Usage example
+## Preparation
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+Karena ini menggunakan database MySql jadi bisa buat dulu database nya kemudian bisa import file sql yang ada di folder _database/file sql_, setelah itu di server local kita jalankan servernya kalau saya menggunakan xampp jadi jalankan apache dan mysql. setelah ready semuanya sekarang kita mulai membuka projectnya.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+## Run the project
 
-## Development setup
+Pertama pastikan di laptop/pc sudah terinstall git bash supaya memudahan dalam menggunakan perintah cli dan juga disini saya menggunakan visual studio code, setelah itu masuk kedalam folder yang telah kita tadi clone dari github, kemudian klik kanan di folder tersebut lalu pilih git bash here dan akan muncul git bash yang sudah berada pada folder project kita, langkah selanjutnya :
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
+Pada git bash kita ketikan :
 ```sh
-make install
-npm test
+code .
 ```
+makan akan terbuka visual studio code dengan struktur project kita di dalamnya,
 
 ## Release History
 
@@ -56,3 +55,6 @@ Distributed under the XYZ license. See ``LICENSE`` for more information.
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
+
+<!-- Markdown link & img dfn's -->
+
