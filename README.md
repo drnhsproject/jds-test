@@ -23,8 +23,11 @@ Pada git bash kita ketikan :
 ```sh
 code .
 ```
-makan akan terbuka visual studio code dengan struktur project kita di dalamnya,
-
+makan akan terbuka visual studio code dengan struktur project kita di dalamnya, selanjutnya kita open terminal di visual studio code atau bisa juga menggunakan git bash yang tadi di open akan tetapi agar kita tidak bolak-balik aplikasi maka kita gunakan saja aplikasi terminal bawaan vscode lalu pilih terminal seperti dibawah ini:
+![](assets/choose-terminal.png)
+```sh
+code .
+```
 ## Release History
 
 * 0.2.1
