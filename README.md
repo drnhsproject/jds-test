@@ -42,7 +42,7 @@ setelah running kita bisa melakukan api testing disini saya menggunakan postman,
 
 setelah username berhasil melaukan resistrasi maka kita ketahap selanjutnya yaitu melakukan sigin, yang pertama kita setting postmannya seperti dibawah ini, mulai dari method nya post, url, body dll, untuk username dan password bisa di copy saja dari api signup setelah semua sesuai klik send dan akan mendapatkan response seperti pada kolom sebelah kanan:
 
-![](assets/api-signup.png)
+![](assets/api-signin.png)
 
 dan jika kita lihat di databasenya maka data user sudah terinput :
 
